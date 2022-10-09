@@ -9,6 +9,10 @@ android {
     namespace 'com.example.cleancryptoapp'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.cleancryptoapp"
         minSdk 23
