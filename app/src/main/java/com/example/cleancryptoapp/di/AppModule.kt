@@ -3,7 +3,7 @@ package com.example.cleancryptoapp.di
 import com.example.cleancryptoapp.data.remote.CoinPaprikaApi
 import com.example.cleancryptoapp.data.repository.CoinRepositoryImpl
 import com.example.cleancryptoapp.domain.repository.CoinRepository
-import com.plcoding.cryptocurrencyappyt.common.Constants
+import com.example.cleancryptoapp.common.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

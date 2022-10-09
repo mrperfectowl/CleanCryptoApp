@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.cleancryptoapp.common.Resource
 import com.example.cleancryptoapp.domain.usecase.GetCoinsUseCase
-import com.plcoding.cryptocurrencyappyt.common.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
@@ -40,5 +40,4 @@ class MainViewModel @Inject constructor(
             }
         }.launchIn(viewModelScope)
     }
-
 }

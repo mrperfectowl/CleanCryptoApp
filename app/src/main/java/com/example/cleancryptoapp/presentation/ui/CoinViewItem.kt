@@ -26,7 +26,7 @@ class CoinViewItem @JvmOverloads constructor(
             ViewGroup.LayoutParams.MATCH_PARENT,
             ViewGroup.LayoutParams.WRAP_CONTENT
         ).apply {
-            setMargins(0, 0, 0, 8)
+            setMargins(8, 8, 8, 8)
         }
         radius = 8f
         cardElevation = 2f

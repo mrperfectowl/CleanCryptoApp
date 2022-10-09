@@ -22,11 +22,11 @@ class MainFragment : Fragment() {
     private lateinit var lm: LinearLayoutManager
     private val coinsAdapter = ItemAdapter<ViewItem<*>>()
 
+    private lateinit var viewModel: MainViewModel
+
     companion object {
         fun newInstance() = MainFragment()
     }
-
-    private lateinit var viewModel: MainViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,7 +59,7 @@ class MainFragment : Fragment() {
             }
 
         }
-        viewModel.coinListState.observe(this, coinListObserver)
+        viewModel.coinListState.observe(viewLifecycleOwner, coinListObserver)
 
     }
 

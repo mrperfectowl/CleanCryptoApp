@@ -8,7 +8,6 @@ import com.mikepenz.fastadapter.ClickListener
 import com.mikepenz.fastadapter.IClickable
 import com.mikepenz.fastadapter.items.AbstractItem
 
-
 class ViewItem<I : View>(
     private val builder: (context: Context) -> I,
     private val binder: (itemView: I) -> Unit,
