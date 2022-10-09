@@ -1,4 +1,4 @@
-package com.example.cleancryptoapp.ui.main
+package com.example.cleancryptoapp.presentation.ui
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle

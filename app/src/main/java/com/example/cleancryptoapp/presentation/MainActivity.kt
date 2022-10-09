@@ -1,8 +1,9 @@
-package com.example.cleancryptoapp
+package com.example.cleancryptoapp.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.cleancryptoapp.ui.main.MainFragment
+import com.example.cleancryptoapp.R
+import com.example.cleancryptoapp.presentation.ui.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
