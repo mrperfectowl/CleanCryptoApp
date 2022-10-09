@@ -3,7 +3,7 @@ package com.example.cleancryptoapp.domain.usecase
 import com.example.cleancryptoapp.data.remote.response.toCoin
 import com.example.cleancryptoapp.domain.model.Coin
 import com.example.cleancryptoapp.domain.repository.CoinRepository
-import com.plcoding.cryptocurrencyappyt.common.Resource
+import com.example.cleancryptoapp.common.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException
